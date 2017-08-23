@@ -1,1 +1,69 @@
 /* GALLERY COMPONENT CSS */
+.track {
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+  margin: 10px;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+
+.track-img {
+  width: 220px;
+  height: 220px;
+  border: 2px solid var(--light-color);
+  border-radius: 2px;
+  position: absolute;
+}
+
+.track-text {
+  background-color: var(--dark-color);;
+  color: var(--light-color);
+  opacity: 0.75;
+  width: 200px;
+  margin-left: 2px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+}
+
+.colored-span {
+  color: var(--main-color);
+}
+
+
+/* AUDIO */
+
+.track-play {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+}
+
+.track-play-inner {
+  position: absolute;
+  text-align: center;
+  font-size: 25px;
+  background-color: var(--main-color);
+  color: var(--light-color);
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  margin-top: 50px;
+  margin-left: 85px;
+  opacity: 0;
+}
+
+.track-play-inner .play-pause {
+  position: absolute;
+  left: 21px;
+  bottom: 15px;
+}
+
+.track-play-inner:hover {
+  opacity: 0.85;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}

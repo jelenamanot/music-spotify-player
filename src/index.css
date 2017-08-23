@@ -1,6 +1,7 @@
 :root {
   --main-color: #FF1B4C;
   --light-color: #FAE4E8;
+  --dark-color: #1A1625;
 }
 
 
@@ -20,3 +21,9 @@ h2, h3 {
   color: var(--main-color);
 }
 h3 { font-size: 25px;}
+
+h4 {
+  font-size: 25px;
+  color: var(--light-color);
+  font-weight: normal;
+}
