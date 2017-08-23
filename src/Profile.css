@@ -1,0 +1,26 @@
+/* PROFILE COMPONENT CSS */
+.Profile {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.artist-image {
+  /* float: left; */
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  object-fit: cover;
+  border: 3px solid var(--main-color);
+  margin-right: 20px;
+}
+
+.artist-info {
+  margin-left: 10px;
+  text-align: left;
+ 
+}
+
+.profile-info-followers, .profile-info-genres {
+  font-size: 18px;
+}
