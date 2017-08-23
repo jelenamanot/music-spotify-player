@@ -6,7 +6,6 @@
 }
 
 .artist-image {
-  /* float: left; */
   width: 150px;
   height: 150px;
   border-radius: 75px;
@@ -21,6 +20,6 @@
  
 }
 
-.profile-info-followers, .profile-info-genres {
-  font-size: 18px;
+.bold-label {
+  font-weight: 600;
 }

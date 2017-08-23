@@ -25,8 +25,8 @@ class Profile extends Component {
         />
         <div className="artist-info">
           <h3>{artist.name}</h3>
-          <p>followers: {artist.followers.total}</p>
-          <p className="artist-info-genres">genres:
+          <p><span className="bold-label">followers:</span> {artist.followers.total}</p>
+          <p className="artist-info-genres"><span className="bold-label">genres:</span>
           {
             artist.genres.map((genre, k)=> {
               genre = genre !== artist.genres[artist.genres.length-1] 

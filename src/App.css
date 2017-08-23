@@ -1,6 +1,7 @@
 /* APP COMPONENT CSS */
 .App {
   margin-top: 2%;
+  margin-bottom: 2%;
   text-align: center;
 }
 
@@ -18,6 +19,7 @@ input {
   margin: 5px auto;
   background-color: #F4CDD5; 
   color: #555;
+  font-size: 16px;
 }
 
 button {
