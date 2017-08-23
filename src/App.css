@@ -1,0 +1,35 @@
+/* APP COMPONENT CSS */
+.App {
+  margin-top: 2%;
+  text-align: center;
+}
+
+/* INPUT GROUP STYLING */
+input {
+  padding: 6px 12px;
+  height: 34px;
+  width: 350px;
+  line-height: 1.42;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px;
+  display: block;
+  text-align: center;
+  margin: 5px auto;
+  background-color: #F4CDD5; 
+  color: #555;
+}
+
+button {
+  border-radius: 3px;
+  border: none;
+  height: 44px;
+  width: 375px;
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+
+button img {
+  height: 20px;
+  width: 20px;
+}
